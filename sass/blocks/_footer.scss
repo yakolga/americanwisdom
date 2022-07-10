@@ -1,0 +1,36 @@
+.footer {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0 50px 0;
+    color: #FFFF;
+    text-align: center;
+  }
+  &__logo {
+    margin-bottom: 10px;
+  }
+  &__links {
+    margin-bottom: 20px;
+  }
+  &__rights {
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  &__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__padding {
+    padding-top: 30px;
+  }
+
+  @media (max-width: 767px) {
+    &__wrapper {
+      padding-top: 123px;
+    }
+  }
+}

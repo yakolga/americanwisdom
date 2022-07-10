@@ -1,0 +1,66 @@
+* {
+  font-family: "Gilroy", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1110px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+  &:hover {
+    color: #CFB53B;
+    transition: 0.2s all;
+  }
+}
+
+ul, li {
+  list-style: none
+}
+
+button {
+  background-color: transparent; 
+  border: none; 
+  outline: none;
+  text-transform: uppercase;
+  &:hover {
+    color:#CFB53B; 
+    border-color: #CFB53B;
+    transition: 0.2s all;
+  }
+}
+
+body {
+  background: #1D1B1B;
+}
+
+.subtitle {
+  @media (max-width: 767px) {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+}
+
+.text {
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+@import "variables";
+@import "icons";
+@import "fonts";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/contact";
+@import "blocks/about";
+@import "blocks/benefits";
+@import "blocks/coin";
+@import "blocks/footer";
+@import "blocks/overlay";
+@import "blocks/privacy";

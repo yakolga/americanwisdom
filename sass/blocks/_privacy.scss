@@ -1,0 +1,39 @@
+.privacy {
+  margin-top: 40px;
+  &__intro {
+    padding: 70px 10px;
+    width: 100%;
+    color: #1D1B1B;
+    background-color: #CFB53B;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    @media (max-width: 767px) {
+      font-size: 37px;
+      line-height: 40px;
+    }
+  }
+  &__text {
+    font-weight: 300;
+    padding-top: 40px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+    @media (max-width: 426px) {
+      font-size: 13px;
+    }
+  }
+  &__bold {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #CFB53B; 
+  }
+  p {
+    margin-bottom: 15px;
+  }
+}
