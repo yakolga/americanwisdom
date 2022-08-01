@@ -37,10 +37,10 @@
     display: none;
   }
 
-  @media (max-width: 1222px) {
+  @media (min-width: 1700px) {
     .about {
       &__background {
-        right: -160px;
+        display: none;
       }
     }
   }

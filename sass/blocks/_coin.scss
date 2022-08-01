@@ -1,5 +1,6 @@
 .coin {
   position: relative;
+  padding-bottom: 137px;
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -39,12 +40,13 @@
   }
   &__coin {
     position: absolute;
-    bottom: -143px;
+    bottom: -4px;
     img {
       width: 760px;
     }
   }
   @media (max-width: 767px) {
+    padding-bottom: 42px;
     &__wrapper {
       padding-top: 35px;
     }
@@ -60,7 +62,6 @@
       padding: 38px 10px 85px 10px;
     }
     &__coin {
-      bottom: -35px;
       img {
         width: 425px;
       }
@@ -68,8 +69,8 @@
   }
 
   @media (max-width: 426px) {
+    padding-bottom: 8px;
     &__coin {
-      bottom: 0px;
       img {
         width: 320px;
       }

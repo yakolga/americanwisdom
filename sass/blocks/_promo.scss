@@ -1,11 +1,12 @@
 .promo {
   position: relative;
-  min-height: 600px;
+  padding-top: 160px;
+  height: 100vh;
   &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 62px 0 62px 0;
+    padding: 80px 0 62px 0;
   }
   &__title {
     font-weight: 700;

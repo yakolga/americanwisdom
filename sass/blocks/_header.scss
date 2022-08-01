@@ -1,7 +1,10 @@
 .header {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #ffffff;
   &__wrapper {
-    padding-top: 70px;
+    padding: 10px 0 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +32,7 @@
     line-height: 21px;
   }
   &__button {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #1D1B1B;
     border-radius: 30px;
     cursor: pointer;
     padding: 10px 20px;
@@ -37,7 +40,7 @@
     font-size: 15px;
     line-height: 21px;
     letter-spacing: 0.11em;
-    color: #FFFFFF;
+    color: #1D1B1B;
   }
   &__hamburger {
     display: none;
@@ -59,7 +62,7 @@
         }
       }
       &__wrapper {
-        padding-top: 90px;
+        // padding-top: 90px;
       }
       &__hamburger {
       display: block;
@@ -74,12 +77,9 @@
         display: block;
         height: 2px;
         width: 100%;
-        background-color: #ffff;
+        background-color: #1D1B1B;
         margin-bottom: 4px;
         border-radius: 30px;
-        &:nth-child(2) {
-          background-color: #CFB53B;
-        }
       }
       &:hover {
         span {
@@ -124,7 +124,7 @@
       width: 75%;
       height: 100vh;
       padding: 40px 20px;
-      background: rgba(240, 240, 240, 0.16);
+      background: #ffffff;
       backdrop-filter: blur(30px);
       transition: 0.6s all;
       &_active {
@@ -132,6 +132,10 @@
       }
       }
       }
+    }
+    &__add {
+      background-color: #CFB53B;
+      height: 4px;
     }
   }
 
@@ -147,5 +151,6 @@
       width: 100%;
       background-color: #ffff;
       height: 40px;
+      z-index: 10000;
     }
   }

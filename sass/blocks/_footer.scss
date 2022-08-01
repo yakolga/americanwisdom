@@ -1,11 +1,12 @@
 .footer {
+  background-color: #ffff;
   &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 250px 0 50px 0;
-    color: #FFFF;
+    padding: 70px 0 50px 0;
+    color: #1D1B1B;
     text-align: center;
   }
   &__logo {
@@ -30,7 +31,7 @@
 
   @media (max-width: 767px) {
     &__wrapper {
-      padding-top: 123px;
+      padding-top: 65px;
     }
   }
 }
