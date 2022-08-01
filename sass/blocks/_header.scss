@@ -56,6 +56,10 @@
     .header {
       &__logo {
         margin: 0 auto;
+        img {
+          width: 80px;
+          height: 80px;
+        }
         &_media {
           display: block;
           margin-bottom: 60px;
