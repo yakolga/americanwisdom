@@ -17,6 +17,18 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+//image resizing 
+const image = document.querySelector('.about__background'),
+      container = document.querySelector('.container'), 
+      aboutText = document.querySelector('.about__info');
+
+if (document.documentElement.clientWidth > 1200) {
+  marginOfContainer = (document.documentElement.clientWidth - container.offsetWidth) / 2;
+  left = marginOfContainer + aboutText.offsetWidth + 'px';
+  image.style.left = left;
+  image.style.paddingLeft = '40px';
+}
+
 //modal close
 (function($) {
 $('.modal__close').on('click', function() {
