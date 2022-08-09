@@ -128,8 +128,8 @@
       width: 75%;
       height: 100vh;
       padding: 40px 20px;
-      background: #ffffff;
-      backdrop-filter: blur(30px);
+      background: rgba(255, 255, 255, 0.34);
+backdrop-filter: blur(26px);
       transition: 0.6s all;
       &_active {
         left: 0;
