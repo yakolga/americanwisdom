@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>American Wisdom Gold</title>
-  <link rel="stylesheet" href="css/style.min.css">
   <link rel="apple-touch-icon" sizes="57x57" href="fav.ico/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="fav.ico/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="fav.ico/apple-icon-72x72.png">
@@ -23,6 +22,8 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="fav.ico/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body id="menu">
   <header class="header">
@@ -90,17 +91,17 @@
   <section class="promo" id="promo">
     <div class="promo__container container">
       <div class="promo__wrapper">
-        <div class="promo__text">
-          <h1 class="promo__title">High-Quality <br> Service Just For You</h1>
-          <p class="promo__paragraph">From Precious Metals IRAs to direct purchases of gold and silver, we have helped thousands of Americans diversify and protect their retirement savings everyday</p>
+        <div class="promo__text animate__animated animate__fadeInLeft">
+          <h1 class="promo__title">A Multifunctional Service Created<br>Just For You</h1>
+          <p class="promo__paragraph">Our mission is to effectively help thousands of Americans diversify and protect their retirement savings, from precious metals IRAs to direct purchases of gold and silver</p>
           <a href="#contact"><buttton class="promo__button gold_button">Learn more</buttton></a>
         </div>
-        <div class="promo__image">
+        <div class="promo__image animate__animated animate__fadeInRight">
           <img src="images/maingold.png" alt="gold">
         </div>
       </div>
     </div>
-    <a href="#contact" class="promo__arrow">
+    <a href="#contact" class="promo__arrow animate__animated animate__pulse animate__infinite	infinite">
       <img src="images/arrow.svg" alt="arrow">
     </a>
   </section>
@@ -134,21 +135,21 @@
             <button class="contact__button">SEND</button>
           </form>
         </div>
-        <div class="contact__text">
+        <div class="contact__text animate__animated animate__fadeInRight animate__delay-2s">
           <h4 class="contact__subtitle">Get in touch</h4>
-          <p class="contact__paragraph">From Precious Metals IRAs to direct purchases of gold and silver, we have helped thousands of Americans diversify and protect their retirement savings everyday. In fact, we’re the only precious metals company recommended by Sean Hannity.</p>
+          <p class="contact__paragraph">We provide opportunities for thousands of Americans to diversify and effectively protect their assets, and retirement savings, from IRAs in precious metals to direct purchases of gold and silver. We are the only precious metals company recommended by various international communities.</p>
           <div class="contact__points">
             <div class="contact__point">
               <span class="icon-guarantee"></span>
-              Rated A+ by the Better Business Bureau
+              A+ rating from the Better Business Bureau
             </div>
             <div class="contact__point">
               <span class="icon-guarantee"></span>
-              Rated Triple A by Business Consumer Alliance
+              Triple-A rating from the Business Consumer Alliance
             </div>
             <div class="contact__point">
               <span class="icon-guarantee"></span>
-              2021 Company of the Year
+              The company of 2021
             </div>
           </div>
         </div>
@@ -159,10 +160,10 @@
   <section class="about" id="about">
     <div class="about__container container">
       <div class="about__wrapper">
-        <div class="about__info">
+        <div class="about__info animate__animated animate__fadeInLeft animate__delay-3s">
           <h2 class="about__title">About us</h2>
-          <p class="about__text">We know that there are many options when it comes to choosing a precious metals company to work with. The Oxford Gold Group tailors investment strategies to meet our clients' financial risk thresholds. We protect and preserve equity and grow your investments over time.</p>
-          <p class="about__text">The Oxford Gold Group has developed a broad range of products and services to accommodate any investment strategy. The primary focus of the Oxford Gold Group is to provide individual investors the opportunity to invest in a tangible asset portfolio. We are dedicated to understanding investor needs and protecting the interest of the investor.</p>
+          <p class="about__text">We know that you have many options when it comes to choosing a precious metals company that you want to actively work with. Our company adjusts investment strategies in full accordance with the phenomena of the alleged financial risks of its clients. We allow you to protect and preserve your capital and provide a real opportunity to significantly increase your investments over time using our services.</p>
+          <p class="about__text">We have created a wide range of customer-friendly products and services that fit any investment strategy. The key purpose of our activity is to offer retail investors the opportunity to invest in a portfolio of fixed assets. We try to understand the needs of our investors and accurately protect their interests.</p>
           <a href="#contact"><button class="about__button gold_button">Contact us</button></a>
         </div>
         <div class="about__background">
@@ -175,11 +176,11 @@
   <section class="benefits" id="benefits">
     <div class="benefits__container container">
       <div class="benefits__wrapper">
-        <h2 class="benefits__title">What Is A Precious Metals<span>IRA?</span></h2> 
+        <h2 class="benefits__title">What Is The Performance Of A Precious Metal<span>IRA?</span></h2> 
           <div class="benefits__elements">
-            <div class="benefits__elem benefits__elem_bg">A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium. A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium to be held.</div>
-            <div class="benefits__elem">A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium. A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium to be held.</div>
-            <div class="benefits__elem benefits__elem_bg">A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium. A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium to be held.</div>
+            <div class="benefits__elem benefits__elem_bg animate__animated animate__backInLeft animate__delay-4s">Precious metals IRAs are somewhat similar to traditional IRAs. However, as the name suggests, the precious metal IRA allows for physical gold, silver, platinum, or palladium. Precious metals IRAs are similar to traditional IRAs. However, as the name suggests, precious metals IRAs can contain physical gold, silver, platinum, or palladium.</div>
+            <div class="benefits__elem benefits__elem_middle animate__animated animate__backInUp animate__delay-4s">A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium. A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium to be held.</div>
+            <div class="benefits__elem benefits__elem_bg animate__animated animate__backInRight animate__delay-4s">A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium. A Precious Metals IRA is similar to a traditional IRA. However, as the name suggests, a Precious Metals IRA allows for physical gold, silver, platinum or palladium to be held.</div>
           </div>
         </div>
       </div>
@@ -191,7 +192,7 @@
       <div class="coin__wrapper">
         <div class="coin__title">Why The Americanwisdomgold Is Your <span>Best Choice</span></div>
         <div class="coin__info">
-          <div class="coin__text">The Oxford Gold Group has developed a broad range of products and services to accommodate any investment strategy. The primary focus of the Oxford Gold Group is to provide individual investors the opportunity to invest in a tangible asset portfolio. We are dedicated to understanding investor needs and protecting the interest of the investor.</div>
+          <div class="coin__text">A large number of products and services, created by experienced employees of our company, fully correspond to any investment strategy. With our help, investors got an effective opportunity to invest in a portfolio of fixed assets, our employees clearly understand the needs of investors and protect their legitimate interests.</div>
           <a href="#contact"><button class="coin__button gold_button">Contact us</button></a>
         </div>
         <div class="coin__coin">
@@ -208,9 +209,9 @@
           <img src="images/logo.svg" alt="logo">
         </a>
         <div class="footer__links">
-          <a href="privacypolicy.html" class="footer__link">Privacy Policy</a>
+          <a href="privacypolicy.php" class="footer__link">Privacy Policy</a>
         </div>
-        <div class="footer__rights">The statements made on this website are opinions and past performance is no indication of future performance or returns. Precious metals, like all investments, carry risk. Gold, silver and platinum coins and bars may appreciate, depreciate or stay the same depending on a variety of factors. The Oxford Gold Group cannot guarantee and makes no representation, that any metals purchased will appreciate at all or appreciate sufficiently to make customers a profit. The decision to purchase or sell precious metals, and which precious metals to purchase or sell, are the customer's decision alone, and purchases and sales should be made subject to the customer's own research, prudence, and judgment. PRIVACY POLICY RISK DISCLOSURE </div>
+        <div class="footer__rights">Statements on this page are opinions and past performance is not indicative of future earnings or results. Like all investments, precious metals come with risk. Gold, silver, and platinum coins and bars can go up, down, or stay the same in value depending on several factors. We cannot give a 100% guarantee that the metal purchased will be graded sufficiently to benefit customers. Buying or selling precious metals and determining which precious metals to buy or sell is your personal decision and should be made solely by you and no one else.</div>
         <div class="footer__copyright">© Copyright 2022 Americanwisdomgold. All Rights Reserved.</div>
       </div>
     </div>

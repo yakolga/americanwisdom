@@ -24,7 +24,6 @@
     background: #4B4B4B;
     color: #FFFF;
     backdrop-filter: blur(40px);
-    max-height: 340px;
     margin-right: 8px;
     margin-left:8px;
     &_bg {
@@ -32,6 +31,9 @@
       object-fit: cover;
       margin-top: 70px;
       color: #1D1B1B;
+    }
+    &_middle {
+      max-height: 340px;
     }
   }
 
