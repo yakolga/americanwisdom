@@ -27,39 +27,6 @@
 </head>
 <body id="menu">
   <header class="header">
-      <?php
-      require_once "shd.php";
-      setlocale(LC_MONETARY,"en_US");
-      $ch='https://widget.nfusionsolutions.com/widget/ticker/1/7510570b-0dae-4731-a0ec-b3e7c1b4a6c7/40478be8-44c9-4d76-9747-ea005a67a0d6';
-      $curl = curl_init();
-      curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
-      curl_setopt($curl, CURLOPT_HEADER, false);
-      curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
-      curl_setopt($curl, CURLOPT_URL, $ch);
-      curl_setopt($curl, CURLOPT_REFERER, $ch);
-      curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
-      $res = curl_exec($curl);
-      curl_close($curl);
-      $html = new simple_html_dom();
-      $html->load($res);
-      foreach($html->find('span.value') as $element) {
-          $currentrate=html_entity_decode($element->innertext);
-          $pref=substr($currentrate,0,1);
-          if ($pref=='+' || $pref=='-') {
-             $prefix=$pref;
-          }
-          $currentrate=str_replace([',','$','+','-'],'',html_entity_decode($currentrate));
-          if(isset($prefix)){
-              $currentrate=$prefix.($currentrate*1.02);
-              $element->innertext=$currentrate;
-              unset($prefix);
-          }else{
-            $currentrate=money_format("%10n",$currentrate*1.02);
-            $element->innertext=$currentrate;
-          }
-      }?><?if($html){?>
-      <style>.datastore{margin:0;max-width:100%}</style>
-      <div class='header_exc'><?=$html;$html->clear();unset($html);unset($res);?></div><?}?>
     <div class="header__container container">
       <div class="header__wrapper">
         <a href="index.php" class="header__logo">
